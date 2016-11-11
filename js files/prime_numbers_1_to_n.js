@@ -1,3 +1,5 @@
+// Not finished yet
+// hint: http://www.geeksforgeeks.org/ugly-numbers/
 function main(input) {
     //Enter your code here
 	var lines = input.split("\n");
@@ -47,15 +49,8 @@ function allPrimeNumbers(n){
 }
 str = "2\n5 1 10\n10 10 20";
 main(str);
-function Union(a,b,n){
-	return parseInt(n/a)+ parseInt(n/b) - parseInt(n/(a*b)); 
-}
 arr = [2,3,5,7];
 
-allPossibleVal(){
+function allPossibleVal(){
 	
 }
-for(var i=0;i< arr.length;i++){
-	Union()
-}
-console.log(Union(2,3,10));

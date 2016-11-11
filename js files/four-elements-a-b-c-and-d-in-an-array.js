@@ -12,7 +12,7 @@ function equalPairSum(arr){
 			var sum = arr[i]+ arr[j];
 			if(map.hasOwnProperty(sum)){
 				map[sum].push(arr[i],arr[j]);
-				console.log(map[sum])
+				console.log(map[sum]);
 				flag = 1;
 				break;
 			}else{
